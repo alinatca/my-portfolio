@@ -1,11 +1,11 @@
-##My Portfolio
+## My Portfolio
 
-#Description
+# Description
 
 A portfolio is crucial for front-end web developers because it helps showing a small part of their skills. Since a web developer's main job is creating websites and applications, an online portfolio will help showcase your technical skills and attract potential clients.
 
 
-#Challenges
+# Challenges
 
 Working on my portofolio was defenitly a big challenge and it still is. 
 
