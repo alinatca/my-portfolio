@@ -1,0 +1,567 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f0fbf4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/************************* Header Name and Navigation  ***********************/
+header {
+  background-color: #e4788d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  background-color: #ffc2d4;
+  color: #ffffff;
+  font-size: 40px;
+  padding: 10px 10px 10px 120px;
+  margin: 30px 30px 30px 0;
+}
+
+.menu-links {
+  display: flex;
+  margin: 0;
+  align-content: flex-end;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+li a {
+  color: #ffffff;
+  font-size: 25px;
+  text-decoration: none;
+  cursor: pointer;
+  align-content: flex-end;
+  display: flex;
+}
+
+.link-about,
+.link-work,
+.link-contact,
+.link-resume {
+  margin: 10px;
+  border-bottom: 5px solid #ffffff;
+  list-style: none;
+}
+
+/************************ Banner **********************************/
+
+.banner {
+  position: relative;
+  background-image: url("../images/02-main-md.jpg");
+  height: 250px;
+}
+
+.banner-subtitle {
+  position: absolute;
+  bottom: 15%;
+  right: 7%;
+  color: #ffffff;
+  background-color: rgb(255, 194, 212, 0.7);
+  text-align: center;
+  width: 20%;
+}
+
+/************************* ABOUT ME SECTION ****************************/
+
+#about {
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.title-about {
+  text-align: right;
+  font-size: 45px;
+  border-right: 5px solid #e4788d;
+  color: #e4788d;
+  padding-right: 20px;
+  width: 20%;
+  margin: 0;
+  padding-left: 8%;
+}
+
+.content-about p {
+  margin: 15px;
+  padding-top: 20px;
+}
+
+.image-about {
+  float: left;
+  width: 250px;
+  padding-right: 20px;
+}
+
+/**************************** WORK SECTION **********************************/
+#work {
+  display: flex;
+  margin: 40px;
+  padding: 0;
+  /* display: grid; */
+}
+
+.title-work {
+  width: 23%;
+  text-align: right;
+  font-size: 30px;
+  border-right: 5px solid #e4788d;
+  color: #e4788d;
+  padding-right: 20px;
+}
+
+#category-grid {
+  margin: 0 5%;
+  display: grid;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "box-1 box-1"
+    "box-1 box-1"
+    "box-2 box-3"
+    "box-4 box-5";
+  width: 100%;
+  cursor: pointer;
+}
+
+#box-1:hover {
+  background-image: url("../images/horiseon-project.png");
+}
+
+#box-2:hover {
+  background-image: url("../images/stay-tuned-image.jpg");
+}
+
+#box-3:hover {
+  background-image: url("../images/stay-tuned-image.jpg");
+}
+
+#box-4:hover {
+  background-image: url("../images/stay-tuned-image.jpg");
+}
+
+#box-5:hover {
+  background-image: url("../images/stay-tuned-image.jpg");
+}
+
+#box-1 {
+  grid-area: box-1;
+  border: 5px solid #e4788d;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../images/horiseon-project.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box-2 {
+  grid-area: box-2;
+  border: 5px solid #e4788d;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../images/stay-tuned-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box-3 {
+  grid-area: box-3;
+  border: 5px solid #e4788d;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../images/stay-tuned-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box-4 {
+  grid-area: box-4;
+  border: 5px solid #e4788d;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../images/stay-tuned-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box-5 {
+  grid-area: box-5;
+  border: 5px solid #e4788d;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../images/stay-tuned-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  background-color: #e4788d;
+  width: 45%;
+  margin-bottom: 15px;
+  padding-left: 2%;
+  padding: 3%;
+}
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  display: grid;
+  align-content: end;
+}
+
+.heading h4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.heading p {
+  color: #ffc2d4;
+}
+
+.heading-horiseon {
+  background-color: #e4788d;
+  width: 20%;
+  margin-bottom: 15px;
+  padding-left: 1%;
+  padding: 1%;
+}
+
+/***************************************** TITLE SECTION **********************************/
+
+#contact {
+  display: flex;
+  margin: 40px;
+}
+
+.title-contact {
+  text-align: right;
+  font-size: 30px;
+  border-right: 5px solid #e4788d;
+  color: #e4788d;
+  padding-right: 20px;
+  margin: 0;
+  width: 20%;
+  padding-left: 2%;
+}
+
+.content-contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-evenly;
+  flex: 100%;
+}
+.content-contact p {
+  margin: 40px;
+  font-size: 25px;
+  color: #b9375e;
+}
+
+.content-contact a {
+  text-decoration: none;
+  border-bottom: 5px solid #b9375e;
+}
+
+/******************** Responsive ***********************/
+
+@media only screen and (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header-title {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    width: 110%;
+  }
+
+  .menu-links {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    font-size: 8px;
+  }
+
+  li a {
+    font-size: 20px;
+  }
+
+  .banner-subtitle {
+    width: 85%;
+    /* text-align: center; */
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-about {
+    display: flex;
+    justify-content: flex-start;
+    border-right: 0;
+    border-bottom: 5px solid;
+    padding: 0;
+    text-align: left;
+  }
+
+  .content-about {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-about {
+   margin: 0 auto;
+  }
+
+  #category-grid {
+    margin: 0;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "box-1"
+      "box-2"
+      "box-3"
+      "box-4"
+      "box-5";
+  }
+
+  #work {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading h4 {
+font-size: 20px;
+  }
+
+  .heading p {
+    font-size: 10px;
+      }
+
+.heading {
+  width: 50%;
+}
+
+  .title-work {
+    border-right: 0;
+    border-bottom: 5px solid;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-contact {
+    border-right: 0;
+    border-bottom: 5px solid;
+    width: 100%;
+    text-align: left;
+  }
+
+  .content-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    padding-top: 40px;
+    font-size: 10px;
+  }
+
+  .content-contact p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 2;
+  }
+
+  .content-contact a {
+    border-bottom: 2px solid;
+  }
+
+  #box-1 {
+    background-image: url("../images/horiseon-project.png");
+  }
+  
+  #box-2 {
+    background-image: url("../images/02-portfolio-2.jpg");
+  }
+  
+  #box-3 {
+    background-image: url("../images/02-portfolio-3.jpg");
+  }
+  
+  #box-4 {
+    background-image: url("../images/02-portfolio-4.jpg");
+  }
+  
+  #box-5 {
+    background-image: url("../images/02-hero-bg.jpg");
+  }
+
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .menu-links {
+    padding: 20px;
+}
+
+.banner-subtitle {
+  width: 40%;
+}
+
+li a {
+  font-size: 19px;
+}
+
+.title-about {
+  display: flex;
+  justify-content: flex-start;
+  border-right: 0;
+  border-bottom: 5px solid;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+.image-about {
+  width: 314px;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+}
+
+#work {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-work {
+  border-right: 0;
+  border-bottom: 5px solid;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-contact {
+  border-right: 0;
+  border-bottom: 5px solid;
+  width: 100%;
+  text-align: left;
+}
+
+.content-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0;
+  padding-top: 40px;
+  font-size: 10px;
+}
+
+.content-contact p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.content-contact a {
+  border-bottom: 2px solid;
+}
+
+#box-1 {
+  background-image: url("../images/horiseon-project.png");
+}
+
+#box-2 {
+  background-image: url("../images/stay-tuned-image.jpg");
+}
+
+#box-3 {
+  background-image: url("../images/stay-tuned-image.jpg");
+}
+
+#box-4 {
+  background-image: url("../images/stay-tuned-image.jpg");
+}
+
+#box-5 {
+  background-image: url("../images/stay-tuned-image.jpg");
+}
+
+#category-grid {
+  margin: 0;
+}
+
+
+.image-about {
+  padding-top: 10px;
+  width: 277px;;
+}
+
+.heading {
+  width: 65% ;
+}
+
+}
