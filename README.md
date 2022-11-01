@@ -2,25 +2,25 @@
 
 # Description
 
-A portfolio is crucial for front-end web developers because it helps showing a small part of their skills. Since a web developer's main job is creating websites and applications, an online portfolio will help showcase your technical skills and attract potential clients.
+A portfolio is crucial for front-end web developers because it helps show a small part of their skills. Since a web developer's main job is creating websites and applications, an online portfolio will help showcase your technical skills and attract potential clients.
 
 
 # Challenges
 
-Working on my portofolio was defenitly a big challenge and it still is. 
+Working on my portfolio was definitely a big challenge and it still is.
 
-Using flex, grid and creating my first repsosive website was really a challenge, there is a lot of information and deciding what to use and what works best with my creativity was really something I had to think about.
+Using flex, grid and creating my first responsive website was really a challenge, there is a lot of information and deciding what to use and what works best with my creativity, was really something I had to think about.
 
-I have chosen to use both flex and grid, as I think flex helps a lot in responsive and gird is very easy to understand, by combining the two I've managed to replicate the website given. 
+I have chosen to use both flex and grid, as flex helps a lot in responsive and gird is very easy to understand, by combining the two I've managed to replicate the website given.
 
 Here is the live URL:
 
-I have tried to keep the same layout, design and functionality. Preview the website below: ![website-layout](https://user-images.githubusercontent.com/99126225/197775433-a4f04661-b4ca-442f-b4c9-b8275c26b9b0.png)
+I have tried to keep the same layout, design and functionality. Preview the website below: ![website-layout](https://github.com/alinatca/my-portfolio/blob/2f33777447a0f3553aa1c3d2fd5c4b435cc9921f/website-preview-dekstop.png)
 
 
 # Things I learned
 
-I have developed my grid and flex skills, learned how responsivenes is working and put together an amazing website so far.
+I have developed my grid and flex skills, learned how responsiveness works and put together a fantastic website so far.
 
 
 # Contact
