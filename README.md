@@ -13,7 +13,7 @@ Using flex, grid and creating my first responsive website was really a challenge
 
 I have chosen to use both flex and grid, as flex helps a lot in responsive and gird is very easy to understand, by combining the two I've managed to replicate the website given.
 
-Here is the live URL:
+Here is the live URL: https://alinatca.github.io/my-portfolio/
 
 I have tried to keep the same layout, design and functionality. Preview the website below: ![website-layout](https://github.com/alinatca/my-portfolio/blob/2f33777447a0f3553aa1c3d2fd5c4b435cc9921f/website-preview-dekstop.png)
 
